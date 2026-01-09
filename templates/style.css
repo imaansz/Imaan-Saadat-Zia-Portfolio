@@ -1,0 +1,103 @@
+html {
+    font-size: 1.5rem;
+    background-color: white;
+    background-image: url("portfolio_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    font-family: "Tinos", serif;
+    padding: 1.5rem;
+}
+
+#heading {
+    color: black;
+    text-align: center;
+}
+#headers {
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+#navigation {
+    color: green;
+    text-decoration: none;
+    width: 50%;
+    border-color: black;
+    border-width: 3px;
+    border-style: double;
+    text-align: center;
+}
+
+#project-headers {
+    color:green;
+    font-size: 1.5rem;
+}
+
+#mini-headers {
+    color:green;
+    font-size: 1rem;
+}
+
+#body {
+    line-height: 1.8rem;
+}
+
+#img {
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#img-text {
+    margin-left: 1rem; 
+    margin-top: 0;
+}
+
+#aboutme-headers {
+    text-decoration: underline;
+}
+
+#aboutme-text {
+    padding-left: 2rem;
+}
+
+#aboutme {
+    line-height: 1.5rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+  }
+
+#img-proj {
+    max-width: 50%;
+    height: auto;
+    float: left;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#img-proj2 {
+    max-width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+#img-proj3 {
+    max-width: 50%;
+    height: auto;
+    float: right;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
